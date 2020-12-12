@@ -1,5 +1,7 @@
 class BaseClass{
     constructor(x, y, width, height, angle) {
+
+  
         var options = {
             'restitution':0.8,
             'friction':1.0,
@@ -18,6 +20,6 @@ class BaseClass{
         rotate(angle);
         imageMode(CENTER);
         image(this.image, 0, 0, this.width, this.height);
-        pop();
+   pop();
       }
 }
